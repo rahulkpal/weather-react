@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "nodemon -w server index.js",
+    "start": "node index.js",
+    "nmStart": "nodemon -w server index.js",
     "compile": "webpack --mode production",
     "watch": "webpack --watch"
   },
